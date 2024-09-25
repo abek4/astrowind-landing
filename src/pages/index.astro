@@ -13,7 +13,7 @@ import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
+  title: 'Ibáñez Security',
   ignoreTitleTemplate: true,
 };
 ---
@@ -25,31 +25,50 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
+        text: 'Contacto',
         href: 'https://github.com/onwidget/astrowind',
         target: '_blank',
-        icon: 'tabler:download',
+        icon: 'tabler:user',
       },
       { text: 'Learn more', href: '#features' },
     ]}
     image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden xl:inline">creating websites with</span>
-      <span class="text-accent dark:text-white highlight"> Astro 4.0</span> + Tailwind CSS
+      <span class="hidden xl:inline"></span>
+      <span class="text-accent dark:text-white highlight"> Ciberseguridad Privada</span>
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 4.0
-        + Tailwind CSS.</span
-      >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-      Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages &
-      Blogs.
+        <span class="font-bold">¿Estás seguro de que tu vida digital está protegida?</span>
+        <p>
+          En un mundo hiperconectado, donde cada clic, cada contraseña y cada cuenta bancaria pueden convertirse
+          en una puerta de entrada para los ciberdelincuentes, proteger a tu familia va más allá de poner un candado 
+          en la puerta de tu casa.<br /><br />
+        </p>
+        <span class="font-bold">¿Tus hijos están a salvo en línea? ¿Tus finanzas, tus fotos, tus recuerdos más preciados están realmente protegidos?<br /><br /></span>
+        <div style="line-height: 0.5em;"></div>
+       
+        <p>
+          Hoy en día, un solo fallo puede exponer tu privacidad, tu identidad y tu tranquilidad. 
+          Cada vez más familias son víctimas de estafas, hackeos y robo de información personal. 
+          Las consecuencias pueden ser devastadoras: pérdida de dinero, violación de tu intimidad 
+          o incluso el control de tu vida digital en manos de otros.<br /><br />
+        </p>
+        
+        <span class="font-bold">No esperes a ser el siguiente.<br /></span>
+        
+        <p>
+          En Ibáñez Security, nos especializamos en proteger lo más importante: tú y tu familia.
+          Con auditorías de ciberseguridad personalizadas, identificamos tus puntos débiles y te
+          ayudamos a blindar tu hogar digital contra las amenazas que acechan.
+          Porque tu tranquilidad no tiene precio.<br />
+        </p>
+        <br /><br />
+      </span>
+        <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
     </Fragment>
-  </Hero>
-
   <!-- Note Widget ******************* -->
 
   <Note />
